@@ -1,0 +1,608 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container{
+    display:flex; 
+}
+
+
+/* menu baar div style */
+
+.continer{
+    height: 720px;
+    width: 220px;
+    margin-top: 5px;
+    background-color: rgb(246, 245, 245);
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding-right: 10px;
+    
+}
+
+.user{
+    height: 50px;
+    padding: 10px;
+    border: 1px solid  rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inc{
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+    
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 162);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid  rgb(255, 255, 255);
+    margin: 3px;
+}
+
+
+.teams {
+    height: 100px;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+.create{
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(243, 240, 240);
+    display:flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.folders{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid  rgb(243, 231, 231);
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.pro{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 5px;
+    
+    
+}
+
+.select1{
+    width: 110px;
+    display: flex;
+    justify-content:end;
+}
+
+
+.select2{
+    width: 130px;
+    display: flex;
+    justify-content:end;
+}
+
+.select3{
+    width: 120px;
+    display: flex;
+    justify-content:end;
+}
+
+.select4{
+    width: 125px;
+    display: flex;
+    justify-content:end;
+}
+
+.select5{
+    width: 130px;
+    display: flex;
+    justify-content:end;
+}
+
+select{
+    width: 15px;
+    
+    
+}
+
+.menu{
+    height:140px;
+    
+}
+
+.solve{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.bottom{
+    height: 175px;
+    margin-top: 90px;
+    padding-left: 5px;
+    padding-top: 5px;
+    flex-direction: flex;
+    align-items: last baseline;
+    
+}
+
+
+.teammate{
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.help{
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+.end{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+}
+
+#para{
+    background-color: rgb(243, 240, 240);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.continer2{
+    height: 50px;
+    width: 1200px;
+    padding-left: 5px;
+}
+
+/* navbar style */
+
+.navbar{
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border: 2px solid rgb(243, 231, 231);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.p{
+    width: 900px;
+}
+
+.search{
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(243, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+input{
+    height: 20px;
+    outline: none;
+    border: none;
+}
+
+.mes{
+    height: 25px;
+    padding-left: 3px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(243, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting{
+    height: 25px;
+    padding-left: 4px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(243, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav styling */
+
+.next-nav{
+    height: 60px;
+    display: flex;
+    padding-left: 3px;
+    padding-right: 3px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border: 2px solid rgb(243, 231, 231);
+}
+
+.brands{
+    width: 100px;
+    border:2px solid rgb(243, 231, 231);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.desk{
+    width: 60px;
+    display: flex;
+    border: 2px solid rgb(243, 231, 231);
+    justify-content: space-evenly;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.tags{
+    width: 60px;
+    display: flex;
+    border: 2px solid rgb(243, 231, 231);
+    justify-content: space-evenly;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.sort{
+    width: 60px;
+    display: flex;
+    border: 2px solid rgb(243, 231, 231);
+    justify-content: space-evenly;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.filter{
+    width: 60px;
+    display: flex;
+    border: 2px solid rgb(243, 231, 231);
+    justify-content: space-evenly;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+select{
+    height: 20px;
+    border: none;
+}
+
+.div{
+    width: 470px;
+}
+
+.end-nav{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.meeting{
+    display: flex;
+    border: 2px solid rgb(243, 231, 231);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.import{
+    border: 2px solid rgb(243, 231, 231);
+    display: flex;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* table style */
+
+table{
+    margin-top: 10px;
+    background-color:rgb(243, 231, 231) ;
+}
+
+tr{
+    height: 30px;
+    background-color: white;
+}
+
+th{
+    padding: 5px;
+    width: 200px;
+}
+
+td{
+    padding: 5px;
+}
+
+.span1{
+    padding: 3px;
+    background-color: rgb(232, 226, 238);
+    border: 2px solid rgb(189, 153, 189);
+    color: blueviolet;
+    border-radius: 5px;
+}
+
+.span2{
+    padding: 3px;
+    background-color: rgb(248, 248, 129);
+    border: 2px solid rgb(232, 232, 88);
+    border-radius: 5px;
+}
+
+.span3{
+    padding: 3px;
+    background-color: rgb(171, 231, 255);
+    border: 2px solid rgb(87, 183, 221);
+    border-radius: 5px;
+}
+
+.span4{
+    padding: 3px;
+    background-color: rgb(253, 216, 146);
+    border: 2px solid rgb(255, 195, 83);
+    border-radius: 5px;
+}
+
+.span4a{
+    margin-left: 5px;
+    padding: 3px;
+    background-color: rgb(201, 255, 201);
+    border: 2px solid rgb(158, 233, 158);
+    border-radius: 5px;
+}
+
+.span5{
+    padding: 3px;
+    background-color: rgb(253, 216, 146);
+    border: 2px solid rgb(255, 195, 83);
+    border-radius: 5px;
+}
+
+
+.span5a{
+    
+    margin-left: 5px;
+    padding: 3px;
+    background-color: rgb(232, 226, 238);
+    border: 2px solid rgb(189, 153, 189);
+    color: blueviolet;
+    border-radius: 5px;
+}
+
+.span6{
+    padding: 3px;
+    background-color: rgb(238, 172, 238);
+    border: 2px solid rgb(226, 57, 226);
+    color: rgb(219, 1, 219);
+    border-radius: 5px;
+}
+
+.span6a{
+    margin-left: 5px;
+    padding: 3px;
+    background-color: rgb(201, 255, 201);
+    border: 2px solid rgb(158, 233, 158);
+    border-radius: 5px;
+}
+
+
+/* futter style */
+
+.futter{
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: last baseline;
+}
+
+.options{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: last baseline;
+    border-bottom: 2px solid rgb(243, 231, 231);
+    border-radius: 5px;
+    
+}
+
+.choice{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(243, 231, 231);
+}
+
+.archive{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(243, 231, 231);
+}
+
+.delete{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(243, 231, 231);
+}
+
+.more{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(243, 231, 231)
+}
+
+/* hover effects */
+
+#inc:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+#hub:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.design:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.solve:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.pro:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.folders:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.teammate:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.help:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+#para:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.brands:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.desk:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.tags:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.sort:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.filter:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.meeting:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.import:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.choice:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.archive:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.more:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}
+
+.delete:hover{
+    background-color: rgb(237, 232, 232);
+    cursor: pointer;
+}

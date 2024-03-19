@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+<body>
+<div class="main-container">
+
+<!-- div tag is the generic container for flow content. -->
+
+    <div class="continer">
+        <div class="user">
+            <div id="inc">INC<br>InnovateHub</div>  <!--br tag is use for the line break-->
+            <div class="logo"><b>S</b></div>
+        </div>
+        <div class="teams">
+             <div class="design"><p>Design Team</p><p>X+1</p></div>
+             <div class="design"><p>Marketing Team</p><p>X+2</p></div>
+             <div class="design"><p>Development Team</p><p>X+3</p></div>
+        </div>
+        
+        <div class="create">
+            <i class="fa-regular fa-square-plus"></i>
+            Create a team
+        </div>
+        <div class="folders">
+            <p>FOLDERS</p>
+            <p><b>+</b></p>
+        </div>
+        <div class="folders-menu">
+            <div class="pro">
+                <i class="fa-regular fa-folder-closed"></i>
+                <p>Products</p>
+                <div class="select1">
+                     <select>   <!--select tag is to provides a menu of options. -->
+                        <option>
+                            <option>Feedback</option>   <!--Option tag is use to give the options in the select tag-->
+                            <option>Performance</option>
+                            <option>Team</option>
+                            <option>Analysis</option>
+                        </option>
+                    </select>
+                </div>  
+            </div>
+            <div class="menu">
+                <div class="solve">
+                    <i class="fa-regular fa-folder-closed"></i>  
+                    <p>Solve</p>
+                    <div class="select2"><select></select></div>
+                </div>
+                <div class="solve">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <p>Design</p>
+                    <div class="select3"><select></select></div>
+                </div>
+                <div class="solve">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <p>Office</p>
+                    <div class="select4"><select></select></div>
+                </div>
+                <div class="solve">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <p>Legal</p>
+                    <div class="select5"><select></select></div>
+                </div>
+            </div>  
+        </div>
+        <div class="bottom">
+            <div class="end-div">
+                <div class="teammate">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <p>Invite teammates</p>
+                </div>
+                <div class="help">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Help and first steps</p>
+                </div>
+                <div class="end">
+                    <p id="para">Days left on trial</p>
+                    <button>Add biling</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="continer2">
+
+<!-- created a navbar -->
+
+        <div class="navbar">
+            <div class="p">
+                <p>Products</p>
+            </div>
+            
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+<!--inpute tag is use to create interactive controls for web-based forms in order to accept data from the user -->
+                <input id="searchInput" placeholder="search for...">   
+            </div>
+            <div class="mes"><i class="fa-regular fa-comments"></i></div>
+            <div class="setting"><i class="fa-solid fa-gear"></i></div>
+        </div>
+        <div class="next-nav">
+            <div class="brands">
+                <p>All brands</p>
+                <select></select>
+            </div>
+            <div class="desk">
+                <p>Desk</p>
+                <select></select>
+            </div>
+            <div class="tags">
+                <p>Tags</p>
+                <select></select>
+            </div>
+            <div class="sort">
+                <i class="fa-solid fa-arrow-down-1-9"></i>
+                <p>Sort</p>
+            </div>
+            <div class="filter">
+                <i class="fa-solid fa-sliders"></i>
+                <p>Filter</p>
+            </div>
+            <div class="div"></div>
+            <div class="end-nav">
+                <div class="meeting">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <p>Meeting</p>
+                </div>
+                <div class="import">
+                    <i class="fa-solid fa-file-import"></i>
+                    <p>Import/Export</p>
+                </div>
+            </div>
+        </div>
+
+<!-- created a table -->
+
+        <table id="dataTable">
+            <tr>  <!--tr tag is a table row tag-->
+                <th>Brand</th>    <!--th tag is use to write a table heading in the table-->
+                <th>Description</th>
+                <th>Mentores</th>
+                <th>Categories</th>
+                <th>tags</th>
+                <th>Next meeting</th>
+            </tr>
+        
+            <tr>
+                <td>Wix</td>            <!--td tag is use to write table data in the table-->
+                <td>provides cloud -based web development services</td>
+                <td></td>
+                <td>
+<!--span tag is generic inline container for phrasing content, which does not inherently represent anything.-->
+                    <span class="span1">Automation</span>
+                </td> 
+                <td>#digitaltransformation</td>
+                <td>in 30 minutes</td>
+            </tr>
+            <tr>
+                <td>mailchimp</td>
+                <td>develop a mobile app animation.</td>
+                <td></td>
+                <td><span class="span2">Mobile</span></td>
+                <td>#cloud computing</td>
+                <td>Tomarrow</td>
+            </tr>
+            <tr>
+                <td>PayPal</td>
+                <td>The program could include to create an account and connect it to a checking account, a credit card, or both</td>
+                <td></td>
+                <td><span class="span3">Marketplace</span></td>
+                <td>#BuySellOnline</td>
+                <td>in 6 hours</td>
+            </tr>
+            <tr>
+                <td>Disney</td>
+                <td>Introduce a B2B solution </td>
+                <td></td>
+                <td><span class="span4">B2B </span><span class="span4a">B2C</span></td>
+                <td>#BussinessPartnerships</td>
+                <td>No Contact</td>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td>he search engine provided by the company</td>
+                <td></td>
+                <td><span class="span5">Finence </span><span class="span5a">Automation</span></td>
+                <td>#SmartFinence</td>
+                <td>in 30 minutes</td>
+            </tr>
+            <tr>
+                <td>Microsoft</td>
+                <td>Launch an advisory service.</td>
+                <td></td>
+                <td><span class="span6">Publishing</span><span class="span6a">B2C</span></td>
+                <td>#B2CMarketing</td>
+                <td>No contact</td>
+            </tr>
+        </table>
+        <futter>
+            <div class="futter">
+                <div class="options">
+                    <div class="choice">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <p>Selected</p>
+                    </div>
+                    <div class="archive">
+                        <i class="fa-solid fa-trash-can"></i>
+                        Archive
+                    </div>
+                    <div class="delete">
+                        <i class="fa-solid fa-trash"></i>
+                        <p>Delete</p>
+                    </div>
+                    <div class="more">
+                        <p>More</p>
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+        </futter>
+    </div>    
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
